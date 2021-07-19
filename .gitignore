@@ -1,0 +1,4 @@
+*.bat
+*.swp
+*.class
+tmp*.*

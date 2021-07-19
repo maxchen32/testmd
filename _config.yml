@@ -103,7 +103,7 @@ analytics:
 author:
   name             : "maxchen32"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I'm an common person.\n         ☭"
+  bio              : "I'm a common person.☭"
   location         : "China-Beijing"
   email            :
   links:
@@ -254,7 +254,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: home
       author_profile: true
       read_time: false
       comments: # true

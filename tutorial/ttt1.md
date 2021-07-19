@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: search
 author_profile: true
 toc: tue
 ---

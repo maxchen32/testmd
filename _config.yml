@@ -60,8 +60,8 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : true # true, false (default)
 search                   : ture # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+search_full_content      : true # true, false (default)
+search_provider          : lunr # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
@@ -257,7 +257,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: false
-      comments: # true
+      comments: true
       share: true
       related: true
       show_date: true

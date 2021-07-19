@@ -1,6 +1,6 @@
 ---
 title: 第一章-规则
-layout: search
+
 author_profile: true
 toc: true
 ---

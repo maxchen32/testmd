@@ -1,3 +1,8 @@
+---
+author_profile: true
+toc: tue
+---
+
 [TOC]
 
 # 第一章 规则

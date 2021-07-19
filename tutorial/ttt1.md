@@ -1,4 +1,5 @@
 ---
+title: 中考战歌-FIDT
 layout: search
 author_profile: true
 toc: tue

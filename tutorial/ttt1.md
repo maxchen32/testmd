@@ -2,7 +2,7 @@
 title: 中考战歌-FIDT
 layout: search
 layout: posts
-layout: tag
+layout: tags
 author_profile: true
 toc: tue
 ---

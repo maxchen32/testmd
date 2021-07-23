@@ -21,6 +21,7 @@ public class Form {
         <html>
         <head>
             <link rel="stylesheet" type="text/css" href="../css/article.css">
+            <script type="text/javascript" src="../js/setHead.js"></script>
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
             <title>""" + title + 
@@ -28,12 +29,8 @@ public class Form {
         </title>
         </head>
         <body>
-            <div>
-                    <a href="https://maxchen32.github.io/fidt" title="FIDT-&#x9996;&#x9875;">
-                            <img src="../pic/logo.svg" alt="FIDT_logo" height="200" width="200">
-                    </a><br>
-                    <strong style="color: red">&#x672C;&#x9875;&#x9762;&#x4EC5;&#x4E3A;&#x73A9;&#x7B11;&#xFF0C;&#x5E76;&#x65E0;&#x6076;&#x610F;</strong><br>
-            </div>
+            <iframe id="head"></iframe><script>setHead()</script>
+			
             <div>
                     <h1>""" + title + 
         """
@@ -59,13 +56,11 @@ public class Form {
         """;
         
         final String PS = "<p>" , PE = "</p>";
+                        
         
-        final String INDENT = "&emsp;&emsp;";
-                
+        String IMG = "<img class=\"txtpic\" src=\"../pic/" + piclink + "\" />";
         
-        String IMG = "<img id=\"txtpic\" src=\"../pic/" + piclink + "\" />";
-        
-        String para = DIVS + PS + INDENT + text + "<i>&#xFF08;FIDT&#x7535;&#x53F0;&#x62A5;&#x9053;&#xFF09;</i>" + PE + DIVE;
+        String para = DIVS + PS + text + "<i>&#xFF08;FIDT&#x7535;&#x53F0;&#x62A5;&#x9053;&#xFF09;</i>" + PE + DIVE;
         
         String pic = DIVS + PS + IMG + PE + DIVE;
         

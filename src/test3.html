@@ -20,10 +20,10 @@ function loadXMLDoc()
 	{
 		if (xmlhttp.readyState==4 && xmlhttp.status==200)
 		{
-			page=xmlhttp.responseXML;
+			page = xmlhttp.responseXML;
             header1 = page.getElementsByTagName("h1");
             txt = header1[0];
-            document.getElementById("myDiv").innerHTML = txt
+            document.getElementById("myDiv").innerHTML = txt;
 		}
 	}
 	xmlhttp.open("GET","01.html",true);
